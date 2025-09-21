@@ -1,0 +1,8 @@
+body { background: #f8f9fa; }
+.card { border-radius: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.high-rating { background-color: #d4edda !important; }
+.low-rating { background-color: #fff3cd !important; }
+
+
+/* Reszponzív kártyaméretezés: a h-100 biztosítja, hogy a card-body alul igazodjon */
+.card .card-body { display: flex; flex-direction: column; }
